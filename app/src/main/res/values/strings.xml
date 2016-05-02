@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Bloc Note Personnel</string>
+
+    <string name="titreNote">Nom du fichier:</string>
+    <string name="texteNote">Texte de la note:</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search_note">SearchNoteActivity</string>
+
+    <string name="proposeSupp_title">Supprimer le fichier</string>
+</resources>

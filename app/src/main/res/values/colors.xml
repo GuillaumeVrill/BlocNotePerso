@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#00000000</color>
+    <color  name="border_color">#000000</color>
+    <color name="background_color_white">#ffffff</color>
+    <color name="bck_special_color">#dcdcdc</color>
+    <color name="bck_special_color2">#648ce66e</color>
+    <color name="bck_special_color3">#326496ff</color>
+</resources>

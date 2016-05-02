@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/special_row">
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:layout_margin="@dimen/small_margin"
+        android:text="+"
+        android:textAppearance="@style/BtnTextStyle" />
+
+    <EditText
+        android:id="@+id/newFileName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:paddingLeft="5dp"
+        android:textAppearance="@style/EditTextWriter"
+        android:background="@drawable/border" />
+
+</TableRow>
