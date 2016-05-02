@@ -3,9 +3,9 @@ Un bloc note simple, créé pour me mettre au développement android, et pour av
 
 
 ### Téléchargement des sources ###
-Développé avec Android Studio.
-Récupérez le projet, et ouvrez le sous Android Studio.
-Lancez-le, il doit s'installer et fonctionner tout seul. *
+- Développé avec Android Studio.
+- Testé sous Android Lollipop 5.1.1 via émulateur, et sur téléphone. 
+- Récupérez le projet, et ouvrez le sous Android Studio. Lancez-le, il doit s'installer et fonctionner tout seul. 
 
 ### Fonctionnement de l'application ###
 - L'application va créer un répertoire à la racine du téléphone, pour stocker les fichiers textes.
@@ -20,3 +20,10 @@ Lancez-le, il doit s'installer et fonctionner tout seul. *
 ### Réalisation ###
 Application réalisée par Guillaume Vrilliaux, étudiant en master d'informatique en Bourgogne. 
 Plus d'informations? Me contacter à: g.vrilliaux@gmail.com
+
+### Problèmes rencontrés ###
+- Sous la version Marshmallow (via émulateur, pas testé sur téléphone), les fonctions de manipulation de fichier (File f[] = folder.listFile()) ne fonctionne pas correctement.
+
+### Amélioration possibles ###
+- Controler les noms de fichier (pas de noms contenant des espaces, sauts de lignes, caractères spéciaux, etc.).
+- Retirer le focus automatique du téléphone sur la zone de texte d'ajout d'une nouvelle note (clavier qui apparait dés le lancement, peut être déplaisant)
